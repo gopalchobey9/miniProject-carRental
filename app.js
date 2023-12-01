@@ -39,7 +39,7 @@ app.use(passport.session());
 
 
 //connection to DB
-mongoose.connect("mongodb://127.0.0.1:27017/mini-project-car-system")
+mongoose.connect("mongodb+srv://gopalchobey9:NJpwjxF1OusbfAdl@gopalcluster.2bnh6bh.mongodb.net/?retryWrites=true&w=majority")
   .then(() => {
     console.log('connection established')
   })
